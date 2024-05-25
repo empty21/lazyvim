@@ -2,6 +2,9 @@ return {
   "akinsho/toggleterm.nvim",
   version = "*",
   config = true,
+  opts = {
+    shell = "zsh",
+  },
   keys = {
     {
       "<leader>th",
